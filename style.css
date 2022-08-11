@@ -1,8 +1,13 @@
+/*adicionando cor de fundo ao body
+ e tirando os espaçamentos automaticos*/
 body{
   background-color: #3b3b3b;
   margin: 0px;
   padding: 0px;
 }
+
+/* adicionando cor de fundo ao cabeçalho definindo 
+um espaçamento interno e alinhando ao centro */
 header{
   background-color: black;
   padding: 10px;
@@ -10,29 +15,48 @@ header{
   justify-content: center;
   align-items: center;
 }
+
+/*alinhando ao lado com inline-block que alem de
+ alinha ao lado pode se redimensinonar altura e largura*/
 li{
   display: inline-block;
 }
+
+/* adicionando cor aos links tirando decorações
+ do texto e alterando a font do texto */
 a{
   color: blanchedalmond;
   text-decoration: none;
   font-size: 20px;
 }
+
+/* adicionando uma cor de
+ fundo ao link quando o cursor estiver em cima dele*/
 a:hover{
   color: coral;
 }
+
+/* configurando onde o conteudo do site 
+vai ficar centralizando com justify, e o align-items
+*/
 main{
   display: flex;
   justify-content: center;
   align-items: center;
   height: 80vh;
 }
+
+/*dando cor ao rodape do site e configurando 
+o conteudo ao final do cabeçalho */
 footer{
   background-color: black;
   padding: 10px;
   display: flex;
   justify-content: end;
 }
+
+/* dando cor ao paragrafo e dando 
+espaçamento externo a direita*/
 p{
   color: blanchedalmond;
   margin-right: 10px;
